@@ -10,8 +10,8 @@ mod tasks {
             web::scope("")
                 .route("/list", web::get().to(tasks::show))
                 .route("/add", web::post().to(tasks::add))
-                // .route("/edit/{id}", web::post().to(tasks::edit))
-                // .route("/delete/{id}", web::delete().to(tasks::delete))
+                .route("/edit/{id}", web::post().to(tasks::edit))
+                .route("/delete/{id}", web::delete().to(tasks::delete))
                 
         );
     }

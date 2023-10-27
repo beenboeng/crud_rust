@@ -22,7 +22,7 @@ pub struct TaskRequest {
     pub title: String,
     pub completed: bool,
     pub task_status: String,
-    pub percent: u32,
+    pub percent: i32,
 }
 
 #[derive(Debug, Deserialize, Clone, PartialEq, Serialize)]
