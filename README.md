@@ -1,2 +1,2 @@
 # crud_rust
-In this project i use axticweb.
+In this rust project i use axticweb.
